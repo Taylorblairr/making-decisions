@@ -1,4 +1,4 @@
-  ////////// PROBLEM 1 //////////
+   ////////// PROBLEM 1 //////////
 /*
   Create a variable called 'lovesCode' and set it equal to true. 
   Check to see if 'lovesCode' is equal to true or false. 
@@ -28,8 +28,12 @@ var brittanisBirthYear = 1986
 */
 
 //CODE HERE
-
-
+if (amysAge < brittanisAge){
+  console.log ('Brittani is older')
+}
+if (amysBirthYear < brittanisBirthYear){
+  console.log ('Brittani is older')
+}
 ////////// PROBLEM 3 //////////
 
 /*
@@ -37,8 +41,12 @@ var brittanisBirthYear = 1986
 */
 
 //CODE HERE
-
-
+if (amysBirthYear < brittanisBirthYear){
+  console.log ('Amy and Brittani were not born the same year')
+}
+if (amysBirthYear === brittanisBirthYear){
+  console.log ('Amy and Brittani were born on the same year')
+}
 ////////// PROBLEM 4 //////////
 
 let temperature = 55
@@ -50,8 +58,23 @@ let rain = true
 */
 
 //CODE HERE
-
-
+if (temperature <= "60"){
+  console.log("You may want to wear a jacket")
+} else if (rain === true) {
+  console.log ("You may want to wear a jacket and bring an umbrella")
+}
+if (temperature >= "80"){
+  console.log("You may want to wear a t-shirt")
+} else if (rain === true) {
+  console.log ("You may want to wear a t-shirt and bring an umbrella")
+}
+  if (temperature >= "60" && tempature <= "80"){
+    console.log ("You may want to wear a jacket")
+    }  else if (rain === true) {
+      console.log ("You may want to wear a rain-jacket and bring an umbrella")
+    }
+    
+   
 ////////// PROBLEM 5 //////////
 
 /*
@@ -59,8 +82,10 @@ let rain = true
 */
 
 //CODE HERE
-
-
+var str = "hello";
+for (let i = 0; i <= 10; i++) {
+  console.log(str[i])
+}
 ////////// PROBLEM 6 //////////
 
 /*
@@ -68,8 +93,9 @@ let rain = true
 */
 
 //CODE HERE
-
-
+for (let i = 1; i < 10; i++) {
+  console.log(i)
+}
 ////////// PROBLEM 7 //////////
 
 /*
@@ -78,6 +104,12 @@ let rain = true
 
 //CODE HERE
 
+var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for (var i = arr.length - 1; i >= 0; i--) {
+  console.log(arr[i])
+}
+
+//
 let score = 0
 let passingScore = 7
 
@@ -88,7 +120,10 @@ let passingScore = 7
 */
 
 //CODE HERE
-
+while (score < 7){
+  console.log("Your score is not high enough")
+  score += 1
+}
 ////////// INTERMEDIATE PROBLEMS //////////
 
 ////////// PROBLEM 9 //////////
