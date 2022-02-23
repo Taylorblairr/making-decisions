@@ -83,8 +83,8 @@ if (temperature >= "80"){
 
 //CODE HERE
 var str = "hello";
-for (let i = 0; i <= 10; i++) {
-  console.log(str[i])
+for (let i = 0; i <= 9; i++) {
+  console.log(str)
 }
 ////////// PROBLEM 6 //////////
 
